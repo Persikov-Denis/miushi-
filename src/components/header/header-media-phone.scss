@@ -1,0 +1,35 @@
+@media screen and (min-width: 320px) and (max-width: 750px) {
+
+    .header__address,
+    .header__email,
+    .header__phone-block,
+    .header__back-call,
+    .menu__list,
+    .header__logo,
+    .slider-common__headline-common a {
+        display: none;
+    }
+
+    .header-media-phone {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header-media-phone__burger {
+        margin-left: 15px;
+        margin-right: 7px;
+        cursor: pointer;
+    }
+
+    .header-media-phone__basket {
+        margin-right: 15px;
+        margin-left: 7px;
+    }
+
+    .header-media-phone__logo {
+        margin-bottom: 8px;
+        margin-top: 0;
+    }
+
+}

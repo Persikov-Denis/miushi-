@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK,OAAO,SAAS,EAAE,MAAM;EAEvD,AAAA,KAAK,CAAC,kBAAkB,CAAC,kBAAkB,CAAC;IACxC,KAAK,EAAE,KAAK;IACZ,MAAM,EAAE,KAAK;GAChB;EAED,AAAA,yBAAyB,CAAC;IACtB,KAAK,EAAE,KAAK;GACf;EAED,AAAA,qBAAqB,CAAC;IAClB,OAAO,EAAE,IAAI;GAChB;EAED,AAAA,QAAQ,CAAC;IACL,KAAK,EAAE,KAAK;IACZ,QAAQ,EAAE,MAAM;GACnB",
+    "sources": [
+        "product-media-tablet.scss"
+    ],
+    "names": [],
+    "file": "product-media-tablet.css"
+}

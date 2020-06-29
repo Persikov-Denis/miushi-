@@ -1,0 +1,32 @@
+@media screen and (min-width: 750px) and (max-width: 1170px) {
+  .header__address,
+  .header__email,
+  .header__phone-block,
+  .header__back-call,
+  .menu__list,
+  .header__logo {
+    display: none;
+  }
+  .header-media-tablet {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header__container-media-tablet {
+    margin: auto 22px;
+  }
+  .header-media-tablet__logo {
+    margin-top: 7px;
+    margin-bottom: 16px;
+  }
+  .header-media-tablet__user {
+    margin-right: 26px;
+  }
+}
+/*# sourceMappingURL=header-media-tablet.css.map */

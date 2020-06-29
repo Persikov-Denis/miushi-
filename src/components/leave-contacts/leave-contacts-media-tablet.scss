@@ -1,0 +1,42 @@
+@media screen and (min-width: 750px) and (max-width: 1170px) {
+    .leave-contacts::before {
+        background-position: 11% 82%;
+    }
+
+    .leave-contacts__question {
+        text-align: left;
+        margin-left: 22px;
+    }
+
+    .leave-contacts h2 {
+        text-align: left;
+        // width: 100%;
+        margin-left: 22px;
+    }
+
+    .leave-contacts__input-block {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 22px;
+    }
+
+    .leave-contacts__input-block input {
+        margin: 0;
+        width: 28.3%;
+    }
+
+    .leave-contacts__input-block a {
+        width: 222px;
+    }
+
+    .leave-contacts__input-block .leave-contacts__phone {
+        margin-left: 31px;
+    }
+
+    .leave-contacts__sending-data {
+        // width: 100%;
+        text-align: left;
+        margin: 12px 22px;
+    }
+
+}

@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+li {
+    list-style: none;
+}
+
+// a:not([href]) {
+//     color: #1fba0a;
+//     text-decoration: none;
+// }

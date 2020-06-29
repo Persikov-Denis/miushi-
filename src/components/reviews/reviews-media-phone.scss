@@ -1,0 +1,29 @@
+@media screen and (min-width: 320px) and (max-width: 750px) {
+    .reviews {
+        flex-direction: column;
+    }
+
+    .reviews__media-phone {
+        display: none;
+    }
+
+    .reviews__photo img {
+        width: 64px;
+        height: 64px;
+    }
+
+    .reviews__photo h2 {
+        font-size: 15px;
+    }
+
+    .reviews__reviews-block {
+        box-sizing: border-box;
+        padding: 15px;
+        width: 278px;
+        margin: auto;
+    }
+
+    .reviews__vk {
+        margin-left: -13px;
+    }
+}

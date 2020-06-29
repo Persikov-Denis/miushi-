@@ -1,0 +1,32 @@
+@media screen and (min-width: 320px) and (max-width: 750px) {
+    .section-three .sets-one h2 {
+        font-size: 44px;
+    }
+
+    .set-img,
+    .set-img-two {
+        display: none;
+    }
+
+    .product-media-phone {
+        display: block;
+    }
+
+    .set-img-two {
+        margin: 0 10px;
+    }
+
+    .sets-one .set-img {
+        margin: 0 10px;
+    }
+
+    .product-media-phone-img {
+        display: none;
+    }
+
+    .product {
+        margin: auto;
+    }
+
+
+}

@@ -1,0 +1,28 @@
+<div class="product product__container-media-tablet 
+	<% if (data.minSizeImg === true) { %> product--min-size-img <% } %> 
+	<% if (data.mediaTablet === true) { %> product-media-tablet <% } %>
+	<% if (data.mediaphone === true) { %> product-media-phone-img <% } %>">
+
+	<img class="product__img-main" src="<%= data.img %>" alt="">
+	<div class="product__podblock-shadow">
+		<h2 class="product__title"><%= data.title %></h2>
+		<p class="product__value"><%= data.description %></p>
+		<div class="product__price-block">
+			<p class="product__price"><%= data.price %></p>
+			<div class="product__podblock">
+				<button class="product__minus">-</button>
+				<p class="product__quantity">1</p>
+				<button class="product__plus">+</button>
+			</div>
+		</div>
+		<div data-id="dkkdkdkd" class="product__block-link"><a class="product__bascet-link" href="#">В корзину <img src="../../www/img/section-3-slider/online-shopping.png" alt=""></a></div>
+	</div>
+</div>
+
+<!-- <div>
+	<select>
+		<option>Китайский соус</option>
+		<option>Японский соус</option>
+	</select>
+</div> -->
+

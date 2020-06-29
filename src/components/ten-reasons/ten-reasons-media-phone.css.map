@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK,OAAO,SAAS,EAAE,KAAK;EACtD,AAAA,oBAAoB,CAAC,qBAAqB,CAAC,EAAE,CAAC;IAC1C,SAAS,EAAE,IAAI;IACf,UAAU,EAAE,MAAM;GACrB;EAED,AAAA,YAAY,CAAC;IACT,cAAc,EAAE,MAAM;IACtB,WAAW,EAAE,MAAM;IACnB,WAAW,EAAE,IAAI;GACpB;EAED,AAAA,mBAAmB,CAAC;IAChB,KAAK,EAAE,IAAI;IACX,aAAa,EAAE,IAAI;GACtB",
+    "sources": [
+        "ten-reasons-media-phone.scss"
+    ],
+    "names": [],
+    "file": "ten-reasons-media-phone.css"
+}

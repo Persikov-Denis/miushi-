@@ -1,0 +1,138 @@
+.leave-contacts {
+    background: url(./img/Leave-contacts/1.png);
+    height: 356px;
+    position: relative;
+    margin-top: 110px;
+
+    h2 {
+        font-family: 'Lemon Tuesday';
+        font-size: 54px;
+        color: #fff;
+        position: relative;
+        font-weight: 100;
+        text-align: end;
+        margin-right: 287px;
+        margin-top: 65px;
+    }
+}
+
+.leave-contacts__input-block a:hover {
+    background: rgb(179, 89, 5);
+
+}
+
+.leave-contacts__question {
+    font-family: 'OpenSans-Regular';
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    margin-right: 230px;
+    top: 72px;
+}
+
+.leave-contacts::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(./img/Leave-contacts/2.png) no-repeat;
+    height: 356px;
+    background-position: -26% 82%;
+    width: 100%;
+}
+
+.leave-contacts__common {
+    position: relative;
+    top: -30px;
+}
+
+.leave-contacts__input-block {
+    display: flex;
+    justify-content: flex-end;
+
+    a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #fd4f10;
+        width: 192px;
+        height: 48px;
+        color: #fff;
+        font-family: 'OpenSans-SemiBold';
+        text-transform: uppercase;
+        text-decoration: none;
+        border-radius: 3px;
+        margin-left: 29px;
+        font-size: 14px;
+    }
+
+    input {
+        background: none;
+        border: none;
+        border-bottom: 2px solid #d4d4d4;
+        color: #fff;
+        margin: 0 18px;
+        width: 21.3%;
+        text-indent: 15px;
+        font-family: 'Open Sans Bold';
+        font-size: 14px;
+        opacity: 0.8;
+    }
+
+    input:hover {
+        background: rgba(255, 255, 255, 0.1);
+        // transition: 0.5s;
+    }
+}
+
+input[type="text"]::-webkit-input-placeholder {
+    color: #fff;
+}
+
+input[type="text"]:-ms-input-placeholder {
+    color: #fff;
+}
+
+input[type="text"]::-ms-input-placeholder {
+    color: #fff;
+}
+
+input[type="text"]::placeholder {
+    color: #fff;
+}
+
+input[type="number"]::-webkit-input-placeholder {
+    color: #fff;
+}
+
+input[type="number"]:-ms-input-placeholder {
+    color: #fff;
+}
+
+input[type="number"]::-ms-input-placeholder {
+    color: #fff;
+}
+
+input[type="number"]::placeholder {
+    color: #fff;
+}
+
+.leave-contacts__sending-data {
+    font-size: 12px;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    margin-left: 243px;
+    font-family: 'OpenSans-Regular';
+    opacity: 0.8;
+    top: 21px;
+    margin-left: 183px;
+}
+
+.leave-contacts__media-phone-headline {
+    display: none;
+}
+
+@import './components/leave-contacts/leave-contacts-media-tablet.scss';
+@import './components/leave-contacts/leave-contacts-media-phone.scss';

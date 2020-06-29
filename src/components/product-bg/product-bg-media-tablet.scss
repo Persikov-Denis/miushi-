@@ -1,0 +1,22 @@
+@media screen and (min-width: 750px) and (max-width: 1170px) {
+    .product-bg__common-block {
+        margin: 0 22px;
+        margin-top: 50px;
+    }
+
+    .product-bg__common:last-child {
+        display: none;
+    }
+
+    .product-bg__common {
+        width: 220px;
+    }
+
+    .product-bg__description {
+        width: 220px;
+    }
+
+    .product-bg {
+        height: 660px;
+    }
+}

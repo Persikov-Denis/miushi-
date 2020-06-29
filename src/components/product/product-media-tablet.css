@@ -1,0 +1,17 @@
+@media screen and (min-width: 750px) and (max-width: 1170px) {
+  .item .sets-block-common .product__img-main {
+    width: 220px;
+    height: 214px;
+  }
+  .product__podblock-shadow {
+    width: 220px;
+  }
+  .product-media-tablet {
+    display: none;
+  }
+  .product {
+    width: 220px;
+    overflow: hidden;
+  }
+}
+/*# sourceMappingURL=product-media-tablet.css.map */

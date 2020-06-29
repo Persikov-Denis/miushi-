@@ -1,0 +1,41 @@
+@media screen and (min-width: 750px) and (max-width: 1170px) {
+
+    .slider-common__headline-common .headline-two {
+        margin-left: 22px;
+        font-size: 72px;
+    }
+
+    .item .slider-common {
+        background: url(../www/img/media/promo-tablet/sliderbg.png);
+        background-position: 43%;
+        height: 420px;
+    }
+
+    .slider-common__headline {
+        font-size: 72px;
+        margin-left: 22px;
+        margin-top: 40px;
+        margin-bottom: -37px;
+        font-weight: 400;
+    }
+
+    .slider-common__headline-common p {
+        font-size: 18px;
+        margin-left: 22px;
+        margin-top: 13px;
+    }
+
+    .slider-common__headline-common a {
+        width: 185px;
+        margin-left: 22px;
+        margin-top: 28px;
+    }
+
+    .slider-common__discount p {
+        font-size: 18px;
+        width: 90px;
+        height: 90px;
+        margin-top: 69px;
+
+    }
+}

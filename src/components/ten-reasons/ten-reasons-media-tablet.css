@@ -1,0 +1,14 @@
+@media screen and (min-width: 750px) and (max-width: 1170px) {
+  .ten-reasons {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-top: 55px;
+  }
+  .ten-reasons__block {
+    width: 33%;
+  }
+  .ten-reasons__media-tablet {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=ten-reasons-media-tablet.css.map */

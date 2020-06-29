@@ -1,0 +1,21 @@
+@media screen and (min-width: 750px) and (max-width: 1170px) {
+    .reviews__media-tablet {
+        display: none;
+    }
+
+    .reviews {
+        padding-top: 22px;
+    }
+
+    .reviews__media-tablet-container {
+        margin: 0 22px;
+    }
+
+    .reviews__reviews-block {
+        margin: 0 9px;
+    }
+
+    .reviews__photo h2 {
+        font-size: 15px;
+    }
+}

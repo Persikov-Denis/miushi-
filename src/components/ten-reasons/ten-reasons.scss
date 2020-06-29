@@ -1,0 +1,30 @@
+.ten-reasons {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    margin-top: 24px;
+}
+
+.ten-reasons__block {
+    text-align: center;
+    width: 20%;
+
+    p {
+        font-size: 16px;
+        font-family: 'Open Sans Light';
+        color: #4c4c4c;
+        font-weight: 700;
+        line-height: 1.6;
+    }
+}
+
+.ten-reasons__block-two {
+    margin-top: 24px;
+}
+
+.sets-one-ten-reasons {
+    margin-top: 29px;
+}
+
+@import './components/ten-reasons/ten-reasons-media-tablet.scss';
+@import './components/ten-reasons/ten-reasons-media-phone.scss';

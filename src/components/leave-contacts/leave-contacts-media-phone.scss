@@ -1,0 +1,55 @@
+@media screen and (min-width: 320px) and (max-width: 750px) {
+    .leave-contacts h2 {
+        font-size: 44px;
+        width: 72%;
+        text-align: left;
+        margin-left: 15px;
+    }
+
+    .leave-contacts::before {
+        background-position: 48% 82%;
+        height: 518px;
+    }
+    
+
+    .leave-contacts__question {
+        // width: 100%;
+        top: 49px;
+        text-align: left;
+        margin-left: 15px;
+    }
+
+    .leave-contacts__media-phone-headline {
+        display: block;
+    }
+
+    .leave-contacts__input-block {
+        flex-direction: column;
+        margin-top: 48px;
+
+    }
+
+    .leave-contacts__input-block input {
+        width: 87%;
+        height: 38px;
+    }
+
+    .leave-contacts {
+        height: 518px;
+    }
+
+    .leave-contacts__input-block a {
+        width: 261px;
+        margin: auto;
+        margin-top: 40px;
+    }
+
+    .leave-contacts__input-block .leave-contacts__phone {
+        margin-top: 18px;
+    }
+
+    .leave-contacts__sending-data {
+        margin-left: 15px;
+        text-align: left;
+    }
+}

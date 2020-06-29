@@ -1,0 +1,19 @@
+@media screen and (min-width: 320px) and (max-width: 750px) {
+    .about-company__block-two {
+        display: none;
+    }
+
+    .about-company__headline-two {
+        text-align: left;
+        font-size: 20px;
+        padding: 0 15px;
+    }
+
+    .about-company__block-media-phone-text {
+        display: none;
+    }
+
+    .about-company__block-one {
+        padding: 0 15px;
+    }
+}

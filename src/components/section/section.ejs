@@ -1,0 +1,20 @@
+<section class="section-three">
+    <div class="sets-one">
+        <img class="set-img product-media-phone" src="../../www/img/media/product-media-phone/product-left.png" alt="">
+        <img class="set-img" src="../../www/img/section-3-slider/1.png" alt="">
+        <h2><%= data.title %></h2>
+        <img class="set-img-two product-media-phone" src="../../www/img/media/product-media-phone/product-right.png" alt="">
+
+        <img class="set-img-two" src="../../www/img/section-3-slider/2.png" alt="">
+    </div>
+
+    <div class="owl-carousel owl-theme">
+		<% data.children.forEach((blockCommon) => { %>
+            <div class="sets-block-common container">
+                <% blockCommon.forEach((product) => { %>
+                    <%- product %>
+                <% }); %>
+            </div>
+        <% }); %>
+    </div>
+</section>

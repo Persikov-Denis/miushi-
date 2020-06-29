@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK,OAAO,SAAS,EAAE,MAAM;EACvD,AAAA,sBAAsB,CAAC;IACnB,OAAO,EAAE,IAAI;GAChB;EAED,AAAA,QAAQ,CAAC;IACL,WAAW,EAAE,IAAI;GACpB;EAED,AAAA,gCAAgC,CAAC;IAC7B,MAAM,EAAE,MAAM;GACjB;EAED,AAAA,uBAAuB,CAAC;IACpB,MAAM,EAAE,KAAK;GAChB;EAED,AAAA,eAAe,CAAC,EAAE,CAAC;IACf,SAAS,EAAE,IAAI;GAClB",
+    "sources": [
+        "reviews-media-tablet.scss"
+    ],
+    "names": [],
+    "file": "reviews-media-tablet.css"
+}

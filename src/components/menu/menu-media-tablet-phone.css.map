@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK,OAAO,SAAS,EAAE,MAAM;EACvD,AAAA,KAAK,CAAC;IACF,OAAO,EAAE,IAAI;GAChB;;;AAGL,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK,OAAO,SAAS,EAAE,KAAK;EACtD,AAAA,KAAK,CAAC;IACF,OAAO,EAAE,IAAI;GAChB",
+    "sources": [
+        "menu-media-tablet-phone.scss"
+    ],
+    "names": [],
+    "file": "menu-media-tablet-phone.css"
+}

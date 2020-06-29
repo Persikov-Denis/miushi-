@@ -1,0 +1,36 @@
+.about-company {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.about-company__heabline {
+    margin-top: 10px;
+}
+
+.about-company__block-one {
+
+    span {
+        font-family: 'OpenSans-Regular';
+        color: #4c4c4c;
+        font-size: 14px;
+        line-height: 1.8;
+    }
+}
+
+.about-company__headline-two {
+    font-family: 'Open Sans Bold';
+    font-size: 24px;
+    color: #32505a;
+    margin-top: 6px;
+    text-align: center;
+    margin-bottom: 34px;
+}
+
+.about-company__two {
+    margin-left: 40px;
+}
+
+@import './components/about-company/about-company-media-tablet.scss';
+@import './components/about-company/about-company-media-phone.scss';

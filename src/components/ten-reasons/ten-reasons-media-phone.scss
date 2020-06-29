@@ -1,0 +1,19 @@
+@media screen and (min-width: 320px) and (max-width: 750px) {
+    .ten-reasons__common .ten-reasons-headline h2 {
+        font-size: 44px;
+        text-align: center;
+    }
+
+    .ten-reasons {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 40px;
+    }
+
+    .ten-reasons__block {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+
+}

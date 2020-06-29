@@ -1,0 +1,33 @@
+@media screen and (min-width: 320px) and (max-width: 750px) {
+  .item .slider-common {
+    height: 242px;
+    background: url(../www/img/media/promo-phone/promo.png);
+    background-position: 37%;
+  }
+  .slider-common__headline {
+    font-size: 49px;
+    margin-bottom: -32px;
+    margin-top: 27px;
+  }
+  .slider-common__headline-common .headline-two {
+    font-size: 49px;
+  }
+  .slider-common__headline-common a {
+    display: none;
+  }
+  .slider-common__discount p {
+    font-size: 14px;
+    height: 67px;
+    width: 67px;
+    margin-left: -27px;
+    margin-top: 88px;
+  }
+  .slider-common__headline-common p {
+    font-size: 12px;
+    margin-top: 9px;
+  }
+  .slider-common__headline-common {
+    margin-left: 15px;
+  }
+}
+/*# sourceMappingURL=promo-media-phone.css.map */

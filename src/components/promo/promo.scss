@@ -1,0 +1,77 @@
+.slider-common {
+    background: url(./img/section-2-slider/bg.jpg);
+    background-position: 47%;
+    height: 674px;
+    margin-top: -1px;
+}
+
+.slider-common__slider {
+    display: flex;
+}
+
+.headline {
+    font-family: 'Lemon Tuesday';
+    font-size: 110px;
+    color: #84c604;
+    margin-top: 98px;
+    margin-bottom: -80px;
+}
+
+.slider-common__headline {
+    font-family: 'Lemon Tuesday';
+    font-size: 110px;
+    color: #84c604;
+    margin-top: 98px;
+    margin-bottom: -80px;
+}
+
+.slider-common__headline-common p {
+    font-family: 'Open Sans Italic';
+    font-size: 26.38px;
+    color: #fff;
+    margin-top: 19px;
+}
+
+.slider-common__headline-common a {
+    font-family: 'OpenSans-Regular';
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 246px;
+    height: 55px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #fd4f10;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 55px;
+}
+
+.slider-common__headline-common a:hover {
+    background: rgb(179, 89, 5);
+}
+
+.slider-common__discount p {
+    font-family: 'Open Sans Bold';
+    font-size: 28.78px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+    height: 141px;
+    width: 141px;
+    background-color: #d82024;
+    margin-top: 112px;
+    margin-left: 77px;
+}
+
+.slider-common__headline-two {
+    margin-top: -151px;
+}
+
+@import './components/promo/promo-media-tablet.scss';
+@import './components/promo/promo-media-phone.scss';

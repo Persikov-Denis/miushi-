@@ -1,0 +1,58 @@
+@media screen and (min-width: 750px) and (max-width: 1170px) {
+
+    .header__address,
+    .header__email,
+    .header__phone-block,
+    .header__back-call,
+    .menu__list,
+    .header__logo {
+        display: none;
+    }
+
+    .header-media-tablet {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header__container-media-tablet {
+        margin: auto 22px;
+    }
+
+    .header-media-tablet__logo {
+        margin-top: 7px;
+        margin-bottom: 16px;
+    }
+
+    .header-media-tablet__user {
+        margin-right: 26px;
+    }
+
+
+
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 1170px) {
+
+    .menu__media__tablet-phone {
+        background: #3e2e3ced;
+        position: absolute;
+        top: 61px;
+        left: 61px;
+        z-index: 2;
+        margin: 0;
+        padding: 0;
+        display: none;
+
+       li a {
+            color: #fff;
+        }
+
+      }
+
+       .display-block {
+        display: block;
+      }
+
+}

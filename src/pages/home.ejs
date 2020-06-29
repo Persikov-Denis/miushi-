@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Miushi</title>
+    <link rel="shortcut icon" href="../../www/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../base/OwlCarousel2-2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../base/OwlCarousel2-2.3.4/assets/owl.theme.default.css">
+    <link rel="stylesheet" href="../../www/index.min.css">
+</head>
+<body>
+
+    <%- include('./../components/header/header.ejs'); -%>
+
+
+    <%- include('./../components/promo/promo.ejs'); -%>
+
+
+
+    <%- include('./../components/section/section.ejs', {
+        data: {
+            title: 'Сеты',
+            children: [
+                [
+                    include('./../components/product/product.ejs', {
+                        data: {
+                            img: '../../www/img/section-3-slider/3.png',
+                            title: 'Сет №1',
+                            description: '72 шт. | 1560 г. | 1700 Kkal',
+                            price: '2 050 руб',
+                        }
+                    }),
+
+                    include('./../components/product/product.ejs', {
+                        data: {
+                            img: '../../www/img/section-3-slider/4.png',
+                            title: 'Сет №2',
+                            description: '24 шт. | 960 г. | 800 Kkal',
+                            price: '1 590 руб',
+                            mediaphone:true
+                        }
+                    }),
+
+                    include('./../components/product/product.ejs', {
+                        data: {
+                            img: '../../www/img/section-3-slider/5.png',
+                            title: 'Минисет №3',
+                            description: '14 шт. | 450 г. | 400 Kkal',
+                            price: '510 руб',
+                            mediaphone:true
+                        }
+                    }),
+
+                    include('./../components/product/product.ejs', {
+                        data: {
+                            img: '../../www/img/section-3-slider/6.png',
+                            title: 'Сет №4',
+                            description: '16 шт. | 460г. | 490 Kkal',
+                            price: '400 руб',
+                            mediaTablet: true,
+                            mediaphone:true
+                        }
+                    }),
+                ],
+                [
+                    include('./../components/product/product.ejs', {
+                        data: {
+                            img: '../../www/img/section-3-slider/3.png',
+                            title: 'Сет №1',
+                            description: '72 шт. | 1560 г. | 1700 Kkal',
+                            price: '2 050 руб',
+                        }
+                    }),
+
+                    include('./../components/product/product.ejs', {
+                        data: {
+                            img: '../../www/img/section-3-slider/4.png',
+                            title: 'Сет №2',
+                            description: '24 шт. | 960 г. | 800 Kkal',
+                            price: '1 590 руб',
+                            mediaphone:true
+                        }
+                    }),
+
+                    include('./../components/product/product.ejs', {
+                        data: {
+                            img: '../../www/img/section-3-slider/5.png',
+                            title: 'Минисет №3',
+                            description: '14 шт. | 450 г. | 400 Kkal',
+                            price: '510 руб',
+                            mediaphone:true
+                        }
+                    }),
+
+                    include('./../components/product/product.ejs', {
+                        data: {
+                            img: '../../www/img/section-3-slider/6.png',
+                            title: 'Сет №4',
+                            description: '16 шт. | 460г. | 490 Kkal',
+                            price: '400 руб',
+                            mediaTablet: true,
+                            mediaphone:true
+                        }
+                    }),
+                ],
+            ]
+        }
+    }); %>
+
+    <%- include('./../components/section/section.ejs', {
+        data: {
+            title: 'Роллы',
+            children: [
+                [
+                include('./../components/product/product.ejs', {
+                    data: {
+                        img: '../../www/img/section-4-slider/3.png',
+                        minSizeImg: true,
+                        title: 'Сет №1',
+                        description: '72 шт. | 1560 г. | 1700 Kkal',
+                        price: '2 050 руб',
+                    }
+                }),
+
+                include('./../components/product/product.ejs', {
+                    data: {
+                        img: '../../www/img/section-4-slider/4.png',
+                        minSizeImg: true,
+                        title: 'Сет №2',
+                        description: '24 шт. | 960 г. | 800 Kkal',
+                        price: '1 590 руб',
+                        mediaphone:true
+                    }
+                }),
+
+                include('./../components/product/product.ejs', {
+                    data: {
+                        img: '../../www/img/section-4-slider/5.png',
+                        minSizeImg: true,
+                        title: 'Минисет №3',
+                        description: '14 шт. | 450 г. | 400 Kkal',
+                        price: '510 руб',
+                        mediaphone:true
+                    }
+                }),
+
+                include('./../components/product/product.ejs', {
+                    data: {
+                        img: '../../www/img/section-4-slider/6.png',
+                        minSizeImg: true,
+                        title: 'Сет №4',
+                        description: '16 шт. | 460г. | 490 Kkal',
+                        price: '400 руб',
+                        mediaTablet: true,
+                        mediaphone:true
+                    }
+                }),
+            ],
+            [
+                include('./../components/product/product.ejs', {
+                    data: {
+                        img: '../../www/img/section-4-slider/3.png',
+                        minSizeImg: true,
+                        title: 'Сет №1',
+                        description: '72 шт. | 1560 г. | 1700 Kkal',
+                        price: '2 050 руб',
+                    }
+                }),
+
+                include('./../components/product/product.ejs', {
+                    data: {
+                        img: '../../www/img/section-4-slider/4.png',
+                        minSizeImg: true,
+                        title: 'Сет №2',
+                        description: '24 шт. | 960 г. | 800 Kkal',
+                        price: '1 590 руб',
+                        mediaphone:true
+                    }
+                }),
+
+                include('./../components/product/product.ejs', {
+                    data: {
+                        img: '../../www/img/section-4-slider/5.png',
+                        minSizeImg: true,
+                        title: 'Минисет №3',
+                        description: '14 шт. | 450 г. | 400 Kkal',
+                        price: '510 руб',
+                        mediaphone:true
+                    }
+                }),
+
+                include('./../components/product/product.ejs', {
+                    data: {
+                        img: '../../www/img/section-4-slider/6.png',
+                        minSizeImg: true,
+                        title: 'Сет №4',
+                        description: '16 шт. | 460г. | 490 Kkal',
+                        price: '400 руб',
+                        mediaTablet: true,
+                        mediaphone:true
+                    }
+                }),
+                ],
+            ]
+        }
+    }); %>
+
+
+    <%- include('./../components/section/section.ejs', {
+        data: {
+            title: 'Пицца',
+            children: [
+                [
+                include('./../components/product/product.ejs', {
+                    data: {
+                        img: '../../www/img/section-5-slider/1.png',
+                        title: 'Баварская',
+                        description: '33 см | 680 г. | 1350 Kkal',
+                        price: '480 руб',
+                    }
+                }),
+
+                include('./../components/product/product.ejs', {
+                    data: {
+                        img: '../../www/img/section-5-slider/2.png',
+                        title: 'Вегетарианская',
+                        description: '33 см | 755 г. | 1800 Kkal',
+                        price: '380 руб',
+                        mediaphone:true // TODO сделать плевдоелементами
+                    }
+                }),
+
+                include('./../components/product/product.ejs', {
+                    data: {
+                        img: '../../www/img/section-5-slider/3.png',
+                        title: 'Пепперони',
+                        description: '33 см | 615 г. | 1400 Kkal',
+                        price: '450 руб',
+                        mediaphone:true
+                    }
+                }),
+
+                include('./../components/product/product.ejs', {
+                    data: {
+                        img: '../../www/img/section-5-slider/4.png',
+                        title: 'Классическая',
+                        description: '33 см | 590 г. | 1490 Kkal',
+                        price: '390 руб',
+                        mediaTablet: true,
+                        mediaphone:true
+                    }
+                }),
+            ],
+            [
+                include('./../components/product/product.ejs', {
+                    data: {
+                        img: '../../www/img/section-5-slider/1.png',
+                        title: 'Баварская',
+                        description: '33 см | 680 г. | 1350 Kkal',
+                        price: '480 руб',
+                    }
+                }),
+
+                include('./../components/product/product.ejs', {
+                    data: {
+                        img: '../../www/img/section-5-slider/2.png',
+                        title: 'Вегетарианская',
+                        description: '33 см | 755 г. | 1800 Kkal',
+                        price: '380 руб',
+                        mediaphone:true // TODO сделать плевдоелементами
+                    }
+                }),
+
+                include('./../components/product/product.ejs', {
+                    data: {
+                        img: '../../www/img/section-5-slider/3.png',
+                        title: 'Пепперони',
+                        description: '33 см | 615 г. | 1400 Kkal',
+                        price: '450 руб',
+                        mediaphone:true
+                    }
+                }),
+
+                include('./../components/product/product.ejs', {
+                    data: {
+                        img: '../../www/img/section-5-slider/4.png',
+                        title: 'Классическая',
+                        description: '33 см | 590 г. | 1490 Kkal',
+                        price: '390 руб',
+                        mediaTablet: true,
+                        mediaphone:true
+                    }
+                }),
+            ],
+        ]
+        }
+    }); %>
+
+
+
+    <%- include('./../components/section/section.ejs', {
+        data: {
+            title: 'WOK',
+            children: [
+                [
+                include('./../components/product/product.ejs', {
+                    data: {
+                        img: '../../www/img/section-6-slider/1.png',
+                        minSizeImg: true,
+                        title: 'С говядиной',
+                        description: '400 г. | 1350 Kkal',
+                        price: '430 руб',
+                    }
+                }),
+
+                include('./../components/product/product.ejs', {
+                    data: {
+                        img: '../../www/img/section-6-slider/2.png',
+                        minSizeImg: true,
+                        title: 'С курицей',
+                        description: '400 г. | 1350 Kkal',
+                        price: '290 руб',
+                        mediaphone:true
+                    }
+                }),
+
+                include('./../components/product/product.ejs', {
+                    data: {
+                        img: '../../www/img/section-6-slider/3.png',
+                        minSizeImg: true,
+                        title: 'С морепродуктами',
+                        description: '400 г. | 1350 Kkal',
+                        price: '430 руб',
+                        mediaphone:true
+                    }
+                }),
+
+                include('./../components/product/product.ejs', {
+                    data: {
+                        img: '../../www/img/section-6-slider/4.png',
+                        minSizeImg: true,
+                        title: 'С овощами',
+                        description: '33 см | 590 г. | 1490 Kkal',
+                        price: '430 руб',
+                        mediaTablet: true,
+                        mediaphone:true
+                    }
+                }),
+            ],
+            [
+                include('./../components/product/product.ejs', {
+                    data: {
+                        img: '../../www/img/section-6-slider/1.png',
+                        minSizeImg: true,
+                        title: 'С говядиной',
+                        description: '400 г. | 1350 Kkal',
+                        price: '430 руб',
+                    }
+                }),
+
+                include('./../components/product/product.ejs', {
+                    data: {
+                        img: '../../www/img/section-6-slider/2.png',
+                        minSizeImg: true,
+                        title: 'С курицей',
+                        description: '400 г. | 1350 Kkal',
+                        price: '290 руб',
+                        mediaphone:true
+                    }
+                }),
+
+                include('./../components/product/product.ejs', {
+                    data: {
+                        img: '../../www/img/section-6-slider/3.png',
+                        minSizeImg: true,
+                        title: 'С морепродуктами',
+                        description: '400 г. | 1350 Kkal',
+                        price: '430 руб',
+                        mediaphone:true
+                    }
+                }),
+
+                include('./../components/product/product.ejs', {
+                    data: {
+                        img: '../../www/img/section-6-slider/4.png',
+                        minSizeImg: true,
+                        title: 'С овощами',
+                        description: '33 см | 590 г. | 1490 Kkal',
+                        price: '430 руб',
+                        mediaTablet: true,
+                        mediaphone:true
+                    }
+                    }),
+                ],
+            ]
+        }
+    }); %>
+
+    <%- include('./../components/product-bg/product-bg.ejs'); -%>
+
+    <%- include('./../components/ten-reasons/ten-reasons.ejs'); -%>
+
+    <%- include('./../components/reviews/reviews.ejs'); -%>
+
+    <%- include('./../components/leave-contacts/leave-contacts.ejs'); -%>
+
+    <%- include('./../components/about-company/about-company.ejs'); -%>
+
+    <%- include('./../components/footer/footer.ejs'); -%>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+    <script src="../base/OwlCarousel2-2.3.4/owl.carousel.min.js"></script>
+    <script src="../base/carousel.js"></script>
+    <script src="../index.js"></script>
+    <script src="../components/menu/menu-bascet.js"></script>
+    <script src="../components/product/product.js"></script>
+    <script src="../components/menu/menu.js"></script>
+</body>
+
+</html>

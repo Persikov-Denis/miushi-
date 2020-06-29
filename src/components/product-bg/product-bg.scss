@@ -1,0 +1,140 @@
+.product-bg {
+    background-image: url(./img/section-7-slider/bg.png);
+    height: 755px;
+    margin-top: -72px;
+}
+
+.product-bg__ul {
+    display: flex;
+    margin-top: 114px;
+    padding-top: 70px;
+}
+
+.product-bg__common-block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    align-items: baseline;
+}
+
+#product-bg__link-new {
+    color: #fd4f10;
+}
+
+.product-bg__ul a {
+    display: flex;
+    font-family: 'OpenSans-SemiBold';
+    font-size: 18px;
+    color: #999999;
+    margin: 0 35px;
+}
+
+.product-bg__ul a:hover {
+    text-decoration: none;
+    color: #fd4f10;
+}
+.product-bg h2 {
+    font-family: 'Open Sans Bold';
+    font-size: 20px;
+    padding-top: 8px;
+}
+
+.product-bg__value {
+    font-family: 'Open Sans Light';
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.product-bg__price-block {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    margin-top: -17px;
+}
+
+.product-bg__price {
+    font-family: 'Roboto Slab Bold';
+    font-size: 22px;
+}
+
+.product-bg__minus, .product-bg__plus {
+    color: #838383;
+    background: none;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    font-size: 13px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+
+    &:hover {
+        background: #ccc;
+    }
+}
+
+.product-bg__basket a {
+    font-family: 'OpenSans-SemiBold';
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 193px;
+    height: 41px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #fd4f10;
+    color: #fff;
+    text-transform: uppercase;
+    margin: auto;
+    text-decoration: none;
+}
+
+.product-bg__common {
+    background-color: #fff;
+    position: relative;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 14px 0px #E4E4E4;
+    margin-bottom: 5px;
+}
+
+
+.product-bg__position {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.product-bg__position-text {
+    position: absolute;
+    top: 4px;
+    left: 14px;
+    transform: rotate(-44deg);
+    font-family: 'Open Sans Bold';
+    font-size: 16px;
+    color: #fff;
+}
+.product-bg__img-main {
+    width: 180px;
+    height: 180px;
+    margin: auto;
+}
+.product-bg__basket {
+    padding-bottom: 37px;
+}
+.product-bg__button-block {
+    display: flex;
+    align-items: center;
+}
+.product-bg__quantity {
+    margin: 0px 12px;
+}
+.product-bg__description {
+    width: 259px;
+}
+.product-bg__basket a:hover {
+    background: rgb(179, 89, 5);
+
+}
+
+@import './components/product-bg/product-bg-media-tablet.scss';
+@import './components/product-bg/product-bg-media-phone.scss';
